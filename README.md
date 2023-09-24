@@ -1,6 +1,9 @@
 # LibPad
 Low-level PS1/PS2 gamepad communication library (mostly for embedded usage)
 
+## Data interface
+It is just SPI: LSB first, CPOL=1, CPHA=1
+
 ## Pad pinout
 
 | Pin number    | Pin name   | Meaning                                        |
