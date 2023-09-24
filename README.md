@@ -13,4 +13,4 @@ Low-level PS1/PS2 gamepad communication library (mostly for embedded usage)
 | 6             | ATT        | Attention (SPI_CS on MCU)                      |
 | 7             | CLK        | Clock (SPI_CLK on MCU)                         |
 | 8             | N/C [IRQ10]| Joy only. Typically not connected              |
-| 9             | Ack [IRQ7] | Goes low for at least 1 clock after 8 bits transmission with 60us timeout|
+| 9             | Ack [IRQ7] | Goes low for at least 1 clock after eath 8 bits transmitted with 60us timeout|
